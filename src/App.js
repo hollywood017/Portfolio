@@ -8,7 +8,6 @@ import CoverLetter from './CoverLetter';
 import Resume from './Resume';
 import Footer from './Footer';
 import './App.css';
-import CoverLetter from './CoverLetter';
 
 function App() {
   return (
