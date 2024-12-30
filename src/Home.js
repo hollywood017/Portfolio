@@ -13,7 +13,7 @@ const Home = () => {
             </ul>
             <h2>Elevator Pitch</h2>
             <audio controls className='mt-3'>
-                <source src='/elevator_pitch.mp3' type="audio/mpeg" />
+                <source src={`${process.env.PUBLIC_URL}/elevator_pitch.mp3`} type="audio/mpeg" />
                 Your browser does not support the audio element.
             </audio>
         </div>
